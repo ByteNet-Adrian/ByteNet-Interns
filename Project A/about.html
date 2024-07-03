@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="about figtree-regular">
+        <!-- Navbar -->
+        <header>
+            <!-- Place hero image behind the navbar -->
+            <div class="hero-image">
+                <!-- Desktop menu -->
+                <div class="desktop-nav-container aboreto-regular">
+                    <nav class="desktop-nav">
+                        <a href="index.html" class="desktop-nav-items">Home</a>
+                        <a href="about.html" class="desktop-nav-items">About</a>
+                        <a href="services.html" class="desktop-nav-items">Services</a>
+                        <a href="contact.html" class="desktop-nav-items">Contact</a>
+                    </nav>
+                </div>
+                <!-- Mobile hamburger menu -->
+                <div class="mobile-nav-container aboreto-regular">
+                    <button class="hamburger">
+                        <div class="bar"></div>
+                    </button>
+                    <nav class="mobile-nav">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="services.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Hero section -->
+        <div class="container hero-text" id="hero">
+            <h1 class="aboreto-bold">About Us</h1>
+            <button class="aboreto-bold" onclick="location.href='#founders';">Learn More</button>
+        </div>
+        <!-- Info about founders -->
+        <div class="container" id="founders">
+            <h1 class="aboreto-bold">Meet Our Founders</h1>
+            <!-- Emily Foster -->
+            <div class="row" id="emily">
+                <div class="column-2">
+                    <img src="images/emily-foster.jpg" alt="Emily Foster"/>
+                </div>
+                <div class="column-2">
+                    <h2 class="aboreto-bold">Emily Foster</h2>
+                    <p>
+                        Emily Foster's passion for baking was sparked in her grandmother's kitchen, 
+                        where the aroma of freshly baked bread mingled with stories of old-world 
+                        baking traditions. Growing up, Emily spent countless hours by her grandmother's 
+                        side, learning the art of kneading dough and crafting artisanal bread with love 
+                        and care. Her grandmother's tales of family recipes and baking techniques from 
+                        a bygone era inspired Emily to dream of opening her own bakery one day. After 
+                        years of working in the corporate world, Emily realized that her heart belonged 
+                        in the kitchen, and she was determined to turn her passion into a reality.
+                    </p>
+                </div>
+            </div>
+            <!-- Jacob Meyers -->
+            <div class="row" id="jacob">
+                <div class="column-2">
+                    <h2 class="aboreto-bold">Jacob Meyers</h2>
+                    <p>
+                        Jacob Meyers' culinary journey began with his extensive travels around the world, 
+                        where he immersed himself in diverse cultures and their unique culinary practices. 
+                        Fascinated by the myriad of flavors and techniques he encountered, Jacob began 
+                        collecting recipes and honing his skills as a baker and chef. His travels introduced 
+                        him to the rich world of herbs and spices, with thyme quickly becoming his favorite 
+                        for its ability to add depth and character to any dish. Jacob's adventurous spirit 
+                        and passion for innovative cooking brought a unique flair to Bread & Thyme.
+                    </p>
+                </div>
+                <div class="column-2">
+                    <img src="images/jacob-meyers.jpg" alt="Jacob Meyers"/>
+                </div>
+            </div>
+        </div>
+        <!-- Brief history -->
+        <div class="container" id="history">
+            <!-- mobile-only image -->
+            <div class="container" id="img-mobile-1">
+                <img src="images/making-bread-2.jpg" alt="Person making bread"/>
+            </div>
+            <h2 class="aboreto-bold">The Vision</h2>
+            <p>
+                Bread & Thyme was more than just a business venture; it was a place where tradition met innovation. 
+                The bakery's philosophy was simple: use the finest ingredients, bake with love, and create a warm, 
+                welcoming atmosphere for everyone who walked through the door. The centerpiece of their offerings 
+                was the sourdough bread, baked fresh every morning. Emily's grandmother's recipe, with a touch of 
+                Jacob's secret blend of herbs, quickly became a local favorite. Alongside the bread, they offered 
+                a variety of pastries, each with a unique twist reflecting Jacob's culinary adventures. 
+                As Bread & Thyme flourished, Emily and Jacob expanded their menu with artisanal sandwiches and 
+                seasonal specials, delighting customers and establishing the bakery as a go-to destination for food enthusiasts.
+            </p>
+            <!-- mobile-only image -->
+            <div class="container" id="img-mobile-2">
+                <img src="images/bread-6.jpg" alt="Croissant"/>
+            </div>
+            <h2 class="aboreto-bold">Community and Sustainability</h2>
+            <p>
+                From the outset, Bread & Thyme committed to sustainability and supporting local farmers. They sourced 
+                their flour from a nearby organic farm and used seasonal produce for their fillings and toppings, 
+                ensuring freshness and strengthening community bonds. Emily and Jacob's dedication to sustainable 
+                practices extended to eco-friendly packaging and encouraging customers to bring their own containers. 
+                Additionally, they hosted popular baking classes and workshops, fostering a sense of community and 
+                inspiring a new generation of bakers. This commitment to sustainability and community-centered activities 
+                further solidified Bread & Thyme's reputation as a beloved local establishment.
+            </p>
+        </div>
+        <!-- Gallery -->
+        <div class="container" id="gallery">
+            <!-- Images -->
+            <div class="container" id="gallery-images">
+                <div class="row">
+                    <!-- hide this image on mobile -->
+                    <div class="column-3" id="img-1">
+                        <img src="images/making-bread-2.jpg" alt="Person making bread"/>
+                    </div>
+                    <!-- hide this image on mobile -->
+                    <div class="column-3" id="img-2">
+                        <img src="images/bread-6.jpg" alt="Croissant"/>
+                    </div>
+                    <div class="column-3" id="img-3">
+                        <img src="images/bread-7.jpg" alt="Loaf of bread"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer-bg-container footer-text">
+            <button class="aboreto-bold" onclick="location.href='index.html';">Back To Home</button>
+        </div>
+        <footer>
+            <div class="desktop-footer-container-main">
+                <div class="desktop-footer-container1">
+                    <div class="logo">
+                        <img src="images/logo.jpg" alt="Bread and Thyme Logo" class="company-logo">
+                    </div>
+                </div>
+                <div class="desktop-footer-container2">
+                    <div class="desktop-footer-nav figtree-bold">
+                        <nav class="footer-nav">
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="services.html">Services</a>
+                            <a href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="desktop-footer-info footer-icons figtree-regular">
+                        <a href="#"><i class="fa-brands fa-tiktok footer-icon1"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram footer-icon2"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-x-twitter footer-icon3"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook footer-icon4"></i></a>
+                    </div>
+                </div>
+                <h1 class="copyright">Bread and Thyme, LLC. &copy; 2024</h1>
+            </div>
+        </footer>
+    </body>
+</html>
